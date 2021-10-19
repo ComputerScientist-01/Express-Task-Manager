@@ -18,7 +18,7 @@
 
 ### Configure Database Connection String
 
-You need to go to `.env` file and add your connection string to your mongoDB database based on how it's explained in the course.
+You need to go to `.env` file and add your connection string to your mongoDB database.
 You can use the following url, but you need to get your `username`, `password` and `dbname` which you created in your databse.
 
 ```

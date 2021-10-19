@@ -39,6 +39,13 @@ npm start
 
 ## Routes
 
+```
+GET      /api/v1/tasks      - get all tasks  
+GET      /api/v1/tasks/:id  - get single task
+POST     /api/v1/tasks      - create a new task
+PATCH    /api/v1/tasks/:id  - update task
+DELETE	 /api/v1/tasks/:id  - delete task
+```
 
 
 

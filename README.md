@@ -1,56 +1,46 @@
 <p align="center">
     <a href="https://jayvardhanrathi.tech">
-	<img src="https://user-images.githubusercontent.com/39644109/110592126-e6fc2700-819f-11eb-9ca5-8827418963c7.png" width=80%/>
+	<img src="https://user-images.githubusercontent.com/39644109/110592126-e6fc2700-819f-11eb-9ca5-8827418963c7.png" width=60%/>
 </a>
-    
+
+<h2 align="center">Task Manager Backend</h2>
+
 </p>
-
-<h2 align="center"> Insert Project Title Here </h2>
-<h4 align="center"> Insert Project Description Here <h4>
-
-## Demo - [Link](link)
-
-## :fire: Features
-
-- point 1
-- point 2
-- point 3
-- point 4
 
 ## :bulb: Built Using
 
-- [**a**]()
-- [**b**]()
-- [**c**]()
+- MongoDB
+- Express
+- Node.JS
+- Javascript
 
-## :iphone: Screenshots
+## Run
 
-|                                   |                                   |
-| --------------------------------- | --------------------------------- |
-| <img src="images/"  width="300"/> | <img src="images/"  width="300"/> |
-| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
-| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
-| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
-| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
+### Configure Database Connection String
 
-## Instructions to run
+You need to go to `.env` file and add your connection string to your mongoDB database based on how it's explained in the course.
+You can use the following url, but you need to get your `username`, `password` and `dbname` which you created in your databse.
 
-- Pre-requisites:
-
-  - < insert pre-requisite >
-  - < insert pre-requisite >
-
-- < directions to install >
-
-```bash
-< insert code >
+```
+mongodb+srv://<username>:<password>@cluster0.x1ccn.mongodb.net/<dbname>?retryWrites=true&w=majority
 ```
 
-- < directions to execute >
+### To Install all the dependencies
 
-```bash
-< insert code >
 ```
+npm install
+```
+
+### Start API
+
+```
+npm start
+```
+
+## Routes
+
+
+
 
 <!-- LICENSE -->  
 
@@ -71,6 +61,7 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request  
 
 
+
 <!-- CONTACT -->
 
 ## :man: Project Created & Maintained By -
@@ -79,3 +70,4 @@ Contributions are what make the open source community such an amazing place to b
 - **Reach out to me at** [rathi406@gmail.com](rathi406@gmail.com)
 
 <h3 align="right">Built with :heart: by Jayvardhan Rathi</h3>
+

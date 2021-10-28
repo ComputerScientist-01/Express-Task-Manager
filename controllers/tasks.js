@@ -13,8 +13,13 @@ const getTask = (req, res) => {
 	res.send("get single task");
 };
 
-const createTask = (req, res) => {
-	res.send("create task");
+const createTask = async (req, res) => {
+	try {
+		const task = await Task.create(req.body);
+		res.status(201).json({ task });
+	} catch (error) {
+		res.status(500).json({ msg: error });
+	}
 };
 
 const updateTask = (req, res) => {
